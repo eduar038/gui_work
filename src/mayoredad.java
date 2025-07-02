@@ -5,6 +5,8 @@ public class mayoredad {
     public JLabel etiqueta1;
     public JTextField textField1;
     public JPanel panelPrincipal;
+    public JTextField textField2;
+    public JButton verificarButton;
 
     public mayoredad() {
         boton1.addActionListener(e -> {
@@ -23,4 +25,6 @@ public class mayoredad {
         });
 
     }
+
+
 }

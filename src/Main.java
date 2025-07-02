@@ -7,7 +7,9 @@ public class Main {
         frame.pack();
         frame.setVisible(true);
 
-
-
+        JFrame frame2 = new JFrame("numperfect");
+        frame2.setContentPane(new numperfect().panelPrincipal);
+        frame2.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame2.pack();
     }
 }

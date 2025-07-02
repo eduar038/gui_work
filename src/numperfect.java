@@ -18,3 +18,10 @@ public class numperfect{
                 JOptionPane.showMessageDialog(null, "no es perfecto");
             }
 
+        } catch (NumberFormatException ex) {
+            JOptionPane.showMessageDialog(null,"Por favor, escribe un número válido.");
+        }
+
+        });
+    }}
+
